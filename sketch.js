@@ -13,7 +13,7 @@ function setup(){
 }
 function draw(){
   background(200,5);
-  noiseOffset = noiseOffset + 0.09;
+  noiseOffset = noiseOffset + 0.01;
   strokeWeight(strokeWidth);
   strokeWidth = noise(noiseOffset) * 50;
   // if (mouseIsPressed){
