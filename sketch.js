@@ -1,6 +1,6 @@
 let array=[];
 let noiseOffset = 0.0;
-let strokeWidth = 5;
+let strokeWidth = 20;
 
 let backgroundColor =0;
 
