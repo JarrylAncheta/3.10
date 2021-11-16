@@ -2,7 +2,7 @@ let array=[];
 let noiseOffset = 0.0;
 let strokeWidth = 5;
 
-let backgroundColor =200;
+let backgroundColor =0;
 
 function setup(){
  createCanvas(windowWidth, windowHeight);
@@ -13,9 +13,9 @@ function setup(){
 }
 function draw(){
   background(200,5);
-  noiseOffset = noiseOffset + 0.01;
+  noiseOffset = noiseOffset + 0.09;
   strokeWeight(strokeWidth);
-  strokeWidth = noise(noiseOffset) * 30;
+  strokeWidth = noise(noiseOffset) * 50;
   // if (mouseIsPressed){
      
       // background(backgroundColor);
